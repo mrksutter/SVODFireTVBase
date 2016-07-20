@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/block_app"
+    android:name="mstarvid.com.starlightapp.block_app"
+    tools:context=".BlockApp"
+    android:weightSum="1"
+    android:padding="25dp"
+    android:theme="@style/Theme.Example.Leanback">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Link Your Starlight"
+        android:id="@+id/textView"
+        android:layout_weight="0.04" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to \n \n http://www.mstarvid.com/starlight \n\n and enter the following code. When prompted on your computer, click OK on your remote."
+        android:id="@+id/textView1"
+        android:layout_weight="0.04" />
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textView2"
+        android:layout_weight="0.04"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04"
+        />
+
+</LinearLayout>
